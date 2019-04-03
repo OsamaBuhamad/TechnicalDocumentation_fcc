@@ -1,0 +1,169 @@
+html{
+    background-color: lightgray;
+}
+.main-section{
+    
+}
+
+@media screen and (max-width:120px)
+{
+    .main-section header{
+    color: darkred;
+    text-align: center;
+    font-size:2.5vw;
+    
+    }
+}
+
+@media screen and (min-width:250px)
+{
+    .main-section header{
+    color: darkgreen;
+    text-align: center;
+    font-size:4.9vh;
+    
+    }
+}
+
+.main-section p{
+/*    text-align: center;*/
+    font-family: monospace;
+    margin: 0.5vh;
+    padding: 0.5vw;
+    font-size: 1.59vh;
+}
+
+.main-section li{
+    font-size:2.7vh;
+}
+
+.main-section code{
+/*
+    height: 7em;
+  display: flex;
+  align-items: center;
+    padding-left:50em;
+*/
+    
+/*
+    margin: 0;
+    background-color: azure;
+    position: relative;
+    top: 50%;
+    left: 45%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-bottom-color: black;
+*/
+    font-size: 1.5vh;
+    
+}
+
+
+@media screen and (max-width:1400px){
+    .code_border{
+    margin: 11.9vh;
+    margin-left: 50%;
+    padding: 0.5vw;
+    width: 70vw;
+    transform: translate(-50%, -50%);
+    border-style: dotted;
+    border-width: thin;
+    background-color: darkgray;
+/*        flex-direction: row;*/
+
+        
+    }  
+    
+}
+
+
+@media screen and (min-width:1400px){
+    .code_border{
+    margin: 8.3vw;
+    margin-left: 50%;
+    padding: 0.5vw;
+    width: 20vw;
+    transform: translate(-50%, -50%);
+    border-bottom-color: black;
+    border-style: dotted;
+    border-width: thin;
+    background-color: #bec7d6;
+        flex-direction: row;
+
+        
+    }  
+    
+}
+
+
+.showdefAndEX{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -13vh;
+    
+}
+
+.nav-link{
+    
+    
+}
+
+#navbar{
+    position: fixed;
+    left: 0;
+    background-color: dimgray;
+    border-bottom-color: aqua;
+    border-style: none;
+    height: 100%;
+    width: 160px;
+    float: left;
+}
+h4{
+    font-family: sans-serif;
+}
+
+.bodyDisplay{
+    display: block;
+    
+}
+
+body{
+    margin-left:160px;
+}
+
+
+@media screen and (max-width:400px){
+    body{
+    margin-left:100px;
+}
+    
+    #navbar{
+    position: fixed;
+    left: 0;
+    background-color: dimgray;
+    border-bottom-color: aqua;
+    border-style: none;
+    height: 100%;
+    width: 100px;
+    
+}
+}
+
+#navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#navbar li {    
+    margin: 23px 0;
+    border: 1px solid #999;
+    color: aqua;
+    
+}
+#navbar li a {
+    display: block;
+    line-height: 3em;
+    width: 100%;
+    text-decoration: none;
+}
